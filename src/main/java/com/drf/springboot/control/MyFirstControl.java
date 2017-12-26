@@ -31,7 +31,7 @@ public class MyFirstControl {
 		int[] a= {1,1,1};
 		return a;
 	}
-	@RequestMapping("/index")
+	@RequestMapping("/")
 	public String index(Model model)
 	{
 		model.addAttribute("a", "b");
