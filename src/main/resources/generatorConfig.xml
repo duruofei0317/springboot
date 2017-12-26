@@ -9,8 +9,16 @@
     <table schema="g2b" tableName="user">
       <generatedKey column="id" sqlStatement="MySql" identity="true"/>
     </table>
-     <table schema="g2b" tableName="name">
+    <table schema="g2b" tableName="name">
       <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+    </table>
+    <table schema="g2b" tableName="sys_role">
+      <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+    </table>
+    <table schema="g2b" tableName="sys_user">
+      <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+    </table>
+    <table schema="g2b" tableName="sys_user_roles">
     </table>
   </context>
 </generatorConfiguration>
